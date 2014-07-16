@@ -14,11 +14,10 @@ Use with Express 3.4
 Initialization
 
 ```js
+var express=require('express');
 var allparams=require('allparams');
-```
-Use it
 
-```js
+var app=express();
 app.all('/any',allparams(),sendit);
 
 function sendit(req,res,next){
