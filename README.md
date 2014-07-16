@@ -25,7 +25,16 @@ function sendit(req,res,next){
 }
 ```
 
-
+Run the node service and post `{"name":"Frank"}` to the url
+`http://localhost/any/411?q=33`
+You should see this output
+```js
+all: {
+id: "411"
+name: "frank"
+q: "33"
+}
+```
 ## Release History
 |Version|Date|Description|
 |:--:|:--:|:--|
