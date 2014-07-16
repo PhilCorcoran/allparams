@@ -1,0 +1,36 @@
+{
+  "name": "allparams",
+  "version": "0.1.0",
+  "description": "Combines all expressjs query,body and route params into one object",
+  "keywords": [
+    "express",
+    "param"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/PhilCorcoran/allparams.git"
+  },
+  "bugs": {
+    "url": "http://github.com/PhilCorcoran/allparams/issues"
+  },
+  "author": {
+    "name": "Philip Corcoran",
+    "email": "philfcorcoran@gmail.com"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib",
+  "dependencies": {
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">= 0.10.19"
+  },
+  "readme": "allparams",
+  "readmeFilename": "README.md",
+  "homepage": "https://github.com/PhilCorcoran/allparams"
+}
