@@ -1,7 +1,7 @@
 {
   "name": "allparams",
-  "version": "0.1.0",
-  "description": "Combines all expressjs query,body and route params into one object",
+  "version": "0.1.1",
+  "description": "Combines all expressjs query,body,route and cookie params into one object",
   "keywords": [
     "express",
     "param"
@@ -24,8 +24,7 @@
     }
   ],
   "main": "./lib",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {},
   "engines": {
     "node": ">= 0.10.19"
@@ -34,3 +33,4 @@
   "readmeFilename": "README.md",
   "homepage": "https://github.com/PhilCorcoran/allparams"
 }
+
