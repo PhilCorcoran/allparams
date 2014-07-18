@@ -1,0 +1,14 @@
+{
+  "name": "Test",
+  "description": "Test for allparams",
+  "version": "0.1.1",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "express": "3.4.x",
+    "allparams": "0.1.1"
+  },
+  "engines": {
+    "node": "~0.10"
+  }
+}
