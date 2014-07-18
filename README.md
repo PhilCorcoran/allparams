@@ -1,9 +1,9 @@
 allparams
 ===========
 
-Combines all expressjs query,body and route params into one object  
-Use with Express 3.4
-
+Combines all expressjs query,body,route and cookie params into one object  
+Use with Express 3.4. Requires `express.json()` or `express.bodyParser()` for body parameters  
+Requires `express.cookieParser()` for cookie parameters.
 # Install
 
 ```bash
@@ -35,6 +35,8 @@ name: "frank"
 q: "33"
 }
 ```
+# Options
+`noCookies` don't add cookies to the parameters
 ## Release History
 |Version|Date|Description|
 |:--:|:--:|:--|
