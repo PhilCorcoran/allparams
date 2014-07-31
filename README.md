@@ -41,6 +41,7 @@ q: "33"
 |Version|Date|Description|
 |:--:|:--:|:--|
 
+|v0.1.2|2014-07-31|Always set req.allParams|
 |v0.1.0|2014-07-16|Created|
 
 # License 
