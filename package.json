@@ -1,6 +1,6 @@
 {
   "name": "allparams",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Combines all expressjs query,body,route and cookie params into one object",
   "keywords": [
     "express",
