@@ -36,7 +36,16 @@ q: "33"
 }
 ```
 # Options
-`noCookies` don't add cookies to the parameters
+`noCookies` don't add cookies to the parameters  
+**Warning**: always add secure cookies explicitly to ensure they cannot be overridden by a query or body parameter e.g.
+```js
+app.all('/any',allparams(),setToken);
+
+function setToken(req,res,next){
+	req.allParams.token=req.cookies['token'];
+	next();
+}
+```
 ## Release History
 |Version|Date|Description|
 |:--:|:--:|:--|
